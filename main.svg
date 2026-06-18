@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220">
+  <style>
+    .top { font-family: 'Courier New', monospace; font-size: 13px; fill: #888888; text-anchor: middle; }
+    .p1  { font-family: 'Courier New', monospace; font-size: 14px; fill: #e8e8e8; text-anchor: middle; }
+    .p2  { font-family: 'Courier New', monospace; font-size: 14px; fill: #bbbbbb; text-anchor: middle; }
+    .p3  { font-family: 'Courier New', monospace; font-size: 14px; fill: #888888; text-anchor: middle; }
+    .bot { font-family: Georgia, serif; font-style: italic; font-size: 13px; fill: #666666; text-anchor: middle; }
+
+    @keyframes top1 {
+      0%,100% { opacity:0; } 5% { opacity:1; } 28% { opacity:1; } 33% { opacity:0; }
+    }
+    @keyframes top2 {
+      0%,100% { opacity:0; } 35% { opacity:0; } 38% { opacity:1; } 61% { opacity:1; } 66% { opacity:0; }
+    }
+    @keyframes top3 {
+      0%,100% { opacity:0; } 68% { opacity:0; } 71% { opacity:1; } 94% { opacity:1; } 99% { opacity:0; }
+    }
+    @keyframes fall1 {
+      0%,100% { transform:translateY(-20px); opacity:0; }
+      5%  { transform:translateY(0); opacity:1; }
+      88% { transform:translateY(0); opacity:1; }
+      96% { transform:translateY(0); opacity:0; }
+    }
+    @keyframes fall2 {
+      0%,12%,100% { transform:translateY(-20px); opacity:0; }
+      18% { transform:translateY(0); opacity:1; }
+      88% { transform:translateY(0); opacity:1; }
+      96% { transform:translateY(0); opacity:0; }
+    }
+    @keyframes fall3 {
+      0%,22%,100% { transform:translateY(-20px); opacity:0; }
+      28% { transform:translateY(0); opacity:1; }
+      88% { transform:translateY(0); opacity:1; }
+      96% { transform:translateY(0); opacity:0; }
+    }
+    @keyframes catchfade {
+      0%,35%,100% { opacity:0; }
+      42% { opacity:1; }
+      88% { opacity:1; }
+      96% { opacity:0; }
+    }
+    @keyframes drip {
+      0%   { width:0px; opacity:0; }
+      4%   { opacity:1; }
+      40%  { width:440px; opacity:1; }
+      88%  { width:440px; opacity:1; }
+      96%  { width:440px; opacity:0; }
+      100% { width:0px; opacity:0; }
+    }
+    @keyframes dripbottom {
+      0%,35%  { width:0px; opacity:0; }
+      38%     { opacity:1; }
+      75%     { width:440px; opacity:1; }
+      88%     { width:440px; opacity:1; }
+      96%     { width:440px; opacity:0; }
+      100%    { width:0px; opacity:0; }
+    }
+
+    .a-top1  { animation: top1 16s ease-in-out infinite; }
+    .a-top2  { animation: top2 16s ease-in-out infinite; }
+    .a-top3  { animation: top3 16s ease-in-out infinite; }
+    .a-f1    { animation: fall1 16s ease-in-out infinite; }
+    .a-f2    { animation: fall2 16s ease-in-out infinite; }
+    .a-f3    { animation: fall3 16s ease-in-out infinite; }
+    .a-catch { animation: catchfade 16s ease-in-out infinite; }
+    .a-line  { animation: drip 16s ease-in-out infinite; }
+    .a-lineb { animation: dripbottom 16s ease-in-out infinite; }
+  </style>
+
+  <text x="300" y="22" class="top a-top1">your soul is as attractive as you.</text>
+  <text x="300" y="22" class="top a-top2">i think i might have to let you go.</text>
+  <text x="300" y="22" class="top a-top3">so can i call you tonight?</text>
+
+  <rect class="a-line" x="80" y="32" height="1" width="0" fill="#444444" rx="1"/>
+
+  <text x="300" y="80"  class="p1 a-f1">you don't have to be anxious!!!</text>
+  <text x="300" y="112" class="p2 a-f2">i like you!!!</text>
+  <text x="300" y="144" class="p3 a-f3">don't overthink it.</text>
+
+  <rect class="a-line" x="80" y="160" height="1" width="0" fill="#444444" rx="1"/>
+
+  <text x="300" y="190" class="bot a-catch">catch flights, not feelings. ✦</text>
+
+  <rect class="a-lineb" x="80" y="202" height="1" width="0" fill="#444444" rx="1"/>
+</svg>
