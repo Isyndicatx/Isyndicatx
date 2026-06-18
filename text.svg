@@ -5,39 +5,30 @@
       font-size: 15px;
       text-anchor: middle;
     }
-    .t1 {
-      fill: #e8e8e8;
-      animation: fall1 9s ease-in-out infinite;
-    }
-    .t2 {
-      fill: #bdbdbd;
-      animation: fall2 9s ease-in-out infinite;
-    }
-    .t3 {
-      fill: #8a8a8a;
-      animation: fall3 9s ease-in-out infinite;
-    }
+    .t1 { fill: #e8e8e8; animation: fall1 12s ease-in-out infinite; }
+    .t2 { fill: #bdbdbd; animation: fall2 12s ease-in-out infinite; }
+    .t3 { fill: #8a8a8a; animation: fall3 12s ease-in-out infinite; }
     @keyframes fall1 {
       0%   { transform: translateY(-28px); opacity: 0; }
-      9%   { transform: translateY(0px);   opacity: 1; }
-      85%  { transform: translateY(0px);   opacity: 1; }
-      96%  { transform: translateY(0px);   opacity: 0; }
+      8%   { transform: translateY(0px);   opacity: 1; }
+      75%  { transform: translateY(0px);   opacity: 1; }
+      90%  { transform: translateY(0px);   opacity: 0; }
       100% { transform: translateY(-28px); opacity: 0; }
     }
     @keyframes fall2 {
       0%   { transform: translateY(-28px); opacity: 0; }
-      5%   { transform: translateY(-28px); opacity: 0; }
-      14%  { transform: translateY(0px);   opacity: 1; }
-      85%  { transform: translateY(0px);   opacity: 1; }
-      96%  { transform: translateY(0px);   opacity: 0; }
+      12%  { transform: translateY(-28px); opacity: 0; }
+      20%  { transform: translateY(0px);   opacity: 1; }
+      75%  { transform: translateY(0px);   opacity: 1; }
+      90%  { transform: translateY(0px);   opacity: 0; }
       100% { transform: translateY(-28px); opacity: 0; }
     }
     @keyframes fall3 {
       0%   { transform: translateY(-28px); opacity: 0; }
-      10%  { transform: translateY(-28px); opacity: 0; }
-      19%  { transform: translateY(0px);   opacity: 1; }
-      85%  { transform: translateY(0px);   opacity: 1; }
-      96%  { transform: translateY(0px);   opacity: 0; }
+      20%  { transform: translateY(-28px); opacity: 0; }
+      28%  { transform: translateY(0px);   opacity: 1; }
+      75%  { transform: translateY(0px);   opacity: 1; }
+      90%  { transform: translateY(0px);   opacity: 0; }
       100% { transform: translateY(-28px); opacity: 0; }
     }
   </style>
