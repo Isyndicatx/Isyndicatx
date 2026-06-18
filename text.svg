@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <style>
+    text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 15px;
+      text-anchor: middle;
+    }
+    .t1 {
+      fill: #e8e8e8;
+      animation: fall1 9s ease-in-out infinite;
+    }
+    .t2 {
+      fill: #bdbdbd;
+      animation: fall2 9s ease-in-out infinite;
+    }
+    .t3 {
+      fill: #8a8a8a;
+      animation: fall3 9s ease-in-out infinite;
+    }
+    @keyframes fall1 {
+      0%   { transform: translateY(-28px); opacity: 0; }
+      9%   { transform: translateY(0px);   opacity: 1; }
+      85%  { transform: translateY(0px);   opacity: 1; }
+      96%  { transform: translateY(0px);   opacity: 0; }
+      100% { transform: translateY(-28px); opacity: 0; }
+    }
+    @keyframes fall2 {
+      0%   { transform: translateY(-28px); opacity: 0; }
+      5%   { transform: translateY(-28px); opacity: 0; }
+      14%  { transform: translateY(0px);   opacity: 1; }
+      85%  { transform: translateY(0px);   opacity: 1; }
+      96%  { transform: translateY(0px);   opacity: 0; }
+      100% { transform: translateY(-28px); opacity: 0; }
+    }
+    @keyframes fall3 {
+      0%   { transform: translateY(-28px); opacity: 0; }
+      10%  { transform: translateY(-28px); opacity: 0; }
+      19%  { transform: translateY(0px);   opacity: 1; }
+      85%  { transform: translateY(0px);   opacity: 1; }
+      96%  { transform: translateY(0px);   opacity: 0; }
+      100% { transform: translateY(-28px); opacity: 0; }
+    }
+  </style>
+  <text x="250" y="32" class="t1">you don't have to be anxious!!!</text>
+  <text x="250" y="64" class="t2">i like you!!!</text>
+  <text x="250" y="96" class="t3">don't overthink it.</text>
+</svg>
