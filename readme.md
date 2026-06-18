@@ -1,3 +1,4 @@
+<img width="500" height="120" alt="text" src="https://github.com/user-attachments/assets/595afeeb-8522-48c9-a081-88b400d12d40" />
 <div align="center">
 
 <img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/D1F8AB49-98D9-422F-BA78-483744F55CC4.gif?raw=true" width="350" />
