@@ -1,33 +1,34 @@
-<div align="center">
-
-<img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/D1F8AB49-98D9-422F-BA78-483744F55CC4.gif?raw=true" width="350" />
-
-<br>
-
-<img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/line.svg?raw=true" width="500" />
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3500&pause=1200&color=999999&center=true&vCenter=true&width=500&lines=your+soul+is+as+attractive+as+you.;i+think+i+might+have+to+let+you+go.;so+can+i+call+you+tonight%3F" />
-
-<br>
-
-<img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/line.svg?raw=true" width="500" />
-
-<br>
-
-<img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/text.svg?raw=true" width="500" />
-
-<br>
-
-<img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/line.svg?raw=true" width="500" />
-
-<br>
-
-<sub>catch flights, not feelings.</sub>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=Isyndicatx&color=444444&style=flat-square&label=people+who+found+me" />
-
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" width="500" height="50">
+  <style>
+    @keyframes fade {
+      0%   { opacity: 0; }
+      25%  { opacity: 1; }
+      75%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    @keyframes starpulse {
+      0%   { opacity: 0; }
+      30%  { opacity: 0; }
+      55%  { opacity: 1; }
+      70%  { opacity: 0.6; }
+      85%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    .txt {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-style: italic;
+      font-size: 14px;
+      fill: #888888;
+      text-anchor: middle;
+      animation: fade 8s ease-in-out infinite;
+    }
+    .star {
+      font-size: 10px;
+      fill: #aaaaaa;
+      text-anchor: middle;
+      animation: starpulse 8s ease-in-out infinite;
+    }
+  </style>
+  <text x="237" y="30" class="txt">catch flights, not feelings.</text>
+  <text x="337" y="24" class="star">✦</text>
+</svg>
