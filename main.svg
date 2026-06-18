@@ -5,7 +5,6 @@
     .p2  { font-family: 'Courier New', monospace; font-size: 14px; fill: #bbbbbb; text-anchor: middle; }
     .p3  { font-family: 'Courier New', monospace; font-size: 14px; fill: #888888; text-anchor: middle; }
     .bot { font-family: Georgia, serif; font-style: italic; font-size: 13px; fill: #666666; text-anchor: middle; }
-
     @keyframes top1 {
       0%,100% { opacity:0; } 5% { opacity:1; } 28% { opacity:1; } 33% { opacity:0; }
     }
@@ -46,49 +45,3 @@
       88%  { width:440px; opacity:1; }
       96%  { width:440px; opacity:0; }
       100% { width:0px; opacity:0; }
-    }
-    @keyframes dripbottom {
-      0%,35%  { width:0px; opacity:0; }
-      38%     { opacity:1; }
-      75%     { width:440px; opacity:1; }
-      88%     { width:440px; opacity:1; }
-      96%     { width:440px; opacity:0; }
-      100%    { width:0px; opacity:0; }
-    }
-
-    .a-top1  { animation: top1 16s ease-in-out infinite; }
-    .a-top2  { animation: top2 16s ease-in-out infinite; }
-    .a-top3  { animation: top3 16s ease-in-out infinite; }
-    .a-f1    { animation: fall1 16s ease-in-out infinite; }
-    .a-f2    { animation: fall2 16s ease-in-out infinite; }
-    .a-f3    { animation: fall3 16s ease-in-out infinite; }
-    .a-catch { animation: catchfade 16s ease-in-out infinite; }
-    .a-line  { animation: drip 16s ease-in-out infinite; }
-    .a-lineb { animation: dripbottom 16s ease-in-out infinite; }
-  </style>
-
-  <!-- linea top a goccia -->
-  <rect class="a-line" x="80" y="10" height="1" width="0" fill="#444444" rx="1"/>
-
-  <!-- testo scorrevole -->
-  <text x="300" y="28" class="top a-top1">your soul is as attractive as you.</text>
-  <text x="300" y="28" class="top a-top2">i think i might have to let you go.</text>
-  <text x="300" y="28" class="top a-top3">so can i call you tonight?</text>
-
-  <!-- linea mid a goccia -->
-  <rect class="a-line" x="80" y="40" height="1" width="0" fill="#444444" rx="1"/>
-
-  <!-- frasi che cadono -->
-  <text x="300" y="90"  class="p1 a-f1">you don't have to be anxious!!!</text>
-  <text x="300" y="122" class="p2 a-f2">i like you!!!</text>
-  <text x="300" y="154" class="p3 a-f3">don't overthink it.</text>
-
-  <!-- linea bottom a goccia -->
-  <rect class="a-line" x="80" y="168" height="1" width="0" fill="#444444" rx="1"/>
-
-  <!-- catch + star -->
-  <text x="300" y="200" class="bot a-catch">catch flights, not feelings. ✦</text>
-
-  <!-- linea finale -->
-  <rect class="a-lineb" x="80" y="214" height="1" width="0" fill="#444444" rx="1"/>
-</svg>
