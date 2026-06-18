@@ -2,16 +2,18 @@
   <style>
     @keyframes fade {
       0%   { opacity: 0; }
-      25%  { opacity: 1; }
+      28%  { opacity: 0; }
+      38%  { opacity: 1; }
       75%  { opacity: 1; }
+      90%  { opacity: 0; }
       100% { opacity: 0; }
     }
     @keyframes starpulse {
       0%   { opacity: 0; }
-      30%  { opacity: 0; }
-      55%  { opacity: 1; }
-      70%  { opacity: 0.6; }
-      85%  { opacity: 1; }
+      35%  { opacity: 0; }
+      50%  { opacity: 1; }
+      75%  { opacity: 0.6; }
+      90%  { opacity: 0; }
       100% { opacity: 0; }
     }
     .txt {
@@ -20,13 +22,13 @@
       font-size: 14px;
       fill: #888888;
       text-anchor: middle;
-      animation: fade 8s ease-in-out infinite;
+      animation: fade 12s ease-in-out infinite;
     }
     .star {
       font-size: 10px;
       fill: #aaaaaa;
       text-anchor: middle;
-      animation: starpulse 8s ease-in-out infinite;
+      animation: starpulse 12s ease-in-out infinite;
     }
   </style>
   <text x="237" y="30" class="txt">catch flights, not feelings.</text>
