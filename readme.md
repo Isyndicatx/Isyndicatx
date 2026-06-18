@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/7f9fac5e-114b-4b30-b570-05700cda2f48" width="400" />
+<img src="https://github.com/Isyndicatx/Isyndicatx/blob/main/D1F8AB49-98D9-422F-BA78-483744F55CC4?raw=true" width="400" />
 
 <br><br>
 
@@ -9,7 +9,9 @@
 ---
 
 > you don't have to be anxious!!!
+> 
 > i like you!!!
+> 
 > don't overthink it.
 
 ---
